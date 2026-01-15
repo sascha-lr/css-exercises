@@ -10,8 +10,28 @@ body {
 
 .header {
   background: white;
+  padding: 8px;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-container, .right-container, .link-container {
+  display: flex;
+  gap: 16px;
+  height: fit-content;
+  align-self: center;
+}
+
+.links {
+  display: flex;
+  gap: 8px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 .profile-image {
